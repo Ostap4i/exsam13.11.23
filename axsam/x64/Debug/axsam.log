@@ -1,0 +1,36 @@
+﻿  axsam.cpp
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,1): error C2259: 'TextReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(11,7): message : see declaration of 'TextReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,1): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,1): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,34): error C2259: 'TextReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(11,7): message : see declaration of 'TextReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,34): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(41,34): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,1): error C2259: 'PdfReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(18,11): message : see declaration of 'PdfReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,1): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,1): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,33): error C2259: 'PdfReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(18,11): message : see declaration of 'PdfReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,33): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(48,33): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,1): error C2259: 'ExselReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(25,11): message : see declaration of 'ExselReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,1): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,1): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,35): error C2259: 'ExselReport': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(25,11): message : see declaration of 'ExselReport'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,35): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(55,35): message : 'void Report::generate(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(8,18): message : see declaration of 'Report::generate'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(61,54): error C2259: 'PdfReportFactory': cannot instantiate abstract class
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(45,11): message : see declaration of 'PdfReportFactory'
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(61,54): message : due to following members:
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(61,54): message : 'Report *ReportFactory::createReport(void) const': is abstract
+C:\Users\student\source\repos\axsam\axsam\axsam.cpp(34,25): message : see declaration of 'ReportFactory::createReport'
